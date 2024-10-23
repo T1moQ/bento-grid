@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'DMSans';
+		font-style: normal;
+		font-weight: 400;
+		src: url('../public/fonts/static/DMSans-Regular.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'DMSans';
+		font-style: normal;
+		font-weight: 500;
+		src: url('../public/fonts/static/DMSans-Medium.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'DMSans';
+		font-style: italic;
+		font-weight: 500;
+		src: url('../public/fonts/static/DMSans-MediumItalic.ttf')
+			format('truetype');
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'DMSans', sans-serif;
+}
+
+svg {
+	display: flex;
+	align-items: center;
+}
