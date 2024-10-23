@@ -33,6 +33,7 @@
 body {
 	margin: 0;
 	font-family: 'DMSans', sans-serif;
+	background-color: #f5f5f5;
 }
 
 svg {

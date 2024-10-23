@@ -1,7 +1,12 @@
 import './App.css'
+import { Grid } from './grid'
 
 function App() {
-	return <></>
+	return (
+		<>
+			<Grid />
+		</>
+	)
 }
 
 export default App
